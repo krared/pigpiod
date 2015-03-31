@@ -80,7 +80,7 @@ namespace TCP_Client
             // ошибки-исключения для сокетов
             catch (Exception ex)
             {Console.WriteLine(ex.Message);
-            Console.WriteLine("Подключись к VZDRYZHNI, если не подключает, то по ssh: sudo /etc/init.d/pigpiod restart");
+            Console.WriteLine("Подключись к RPI, если не подключает, то по ssh: sudo /etc/init.d/pigpiod restart");
             Console.ReadLine();
             }
         }
